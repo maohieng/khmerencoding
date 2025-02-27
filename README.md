@@ -45,16 +45,6 @@ print(encoded_text)
 print(get_hex_code_points(encoded_text))
 ```
 
-To encode the file:
-```python
-from khmerencoding import encode_file
-
-# Read a text file, encode the text and write to a new file
-input_file = "input.txt"
-output_file = "output.txt"
-encode_file(input_file, output_file)
-```
-
 ### Contribution
 You are welcomed to contribute to this project so long as you abide by the license below. You can either create issues for us to fix or a PR for us to review. 
 

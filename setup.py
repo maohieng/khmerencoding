@@ -12,7 +12,7 @@ extras_requirements = {
 
 setup(
     name="khmerencoding",
-    version="0.1.0",
+    version="0.1.1",
     description="Khmer character encoding based on the [khmer character specification](https://github.com/sillsdev/khmer-character-specification).",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -26,11 +26,8 @@ setup(
         "Intended Audience :: Developers",
         "Natural Language :: English",
     ],
-    python_requires=">3.5",
     packages=find_packages(),
-    # package_dir={"khmerencoding": "khmerencoding"},
     install_requires=[],
-    package_data={'': ["*"]},
     include_package_data=True,
-    python_requires='>=3.7'
+    python_requires='>=3.5'
 )
